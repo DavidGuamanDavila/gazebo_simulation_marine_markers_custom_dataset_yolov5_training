@@ -27,7 +27,7 @@ This repository serves not just as a codebase but also as a living document of o
 #### Object Loss
 - **Ideal Trend**: Decreasing over time with potential minor fluctuations.
 - **What it Means**: The model is improving its ability to detect objects within the images.
-#### CLass Loss
+#### Class Loss
 - **Ideal Trend**: Decreasing steadily to a low level.
 - **What it Means**: The model is becoming more accurate at classifying the objects it has detected.
 
