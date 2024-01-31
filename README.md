@@ -34,6 +34,7 @@ Version Three was trained with the following criteria:
 - 200 Epochs
 - No Augmentations of Custom Dataset
 - No Transfer Learning (TL)
+
 If you would like to learn more about what these graphs entail read the next section.
 
 ## Training Graphs For Model Evaluation Explained
