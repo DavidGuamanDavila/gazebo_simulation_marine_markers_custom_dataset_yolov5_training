@@ -8,6 +8,15 @@ We utilize [Roboflow](https://roboflow.com/) for annotating and labeling images,
 
 This repository contains Jupyter notebooks detailing the training process for the custom dataset. These notebooks are adapted from Roboflow's resources and tailored to our specific requirements for marine marker detection.
 
+The classes in our Custom Datset are the following:
+
+- **Blue Buoy**: Specifically labeled and identified for this class.
+- **Green Buoy**: Uniquely marked and classified as a separate entity.
+- **Green Marker**: Distinguished by its unique characteristics in the dataset.
+- **Red Buoy**: Identified with specific features pertinent to this class.
+- **Red Marker**: Marked and labeled distinctively.
+- **Yellow Buoy**: Recognized and categorized with its unique aspects.
+
 ## Project Evolution and Documentation
 This repository serves not just as a codebase but also as a living document of our model's evolution. We aim to:
 
@@ -18,6 +27,14 @@ This repository serves not just as a codebase but also as a living document of o
 ## Contents
 - **Jupyter Notebooks**: Comprehensive guides on training the YOLOv5 model with our custom dataset.
 - **Training Weights**: We store the weights of our YOLOv5 models here post-training. These weights are ready for use in object detection tasks or further fine-tuning.
+## Training Graphs For Model Evaluation Version Three
+<img width="907" alt="Screenshot 2024-01-30 at 9 46 12 PM" src="https://github.com/IcebergASV/gazebo_simulation_marine_markers_custom_dataset_yolov5_training/assets/92492748/de64a96f-1b66-4e3b-a26b-4bd2b58ee30c">
+
+Version Three was trained with the following criteria:
+- 200 Epochs
+- No Augmentations of Custom Dataset
+- No Transfer Learning (TL)
+If you would like to learn more about what these graphs entail read the next section.
 
 ## Training Graphs For Model Evaluation Explained
 ### Loss Graphs
