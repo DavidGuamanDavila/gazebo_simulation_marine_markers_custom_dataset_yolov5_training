@@ -6,7 +6,7 @@ Welcome to the *gazebo_simulation_marine_markers_custom_dataset_yolov5_training*
 ## About the Project
 We utilize [Roboflow](https://roboflow.com/) for annotating and labeling images, ensuring precise and efficient dataset preparation. Our project on Roboflow can be accessed at [Gazebo Simulation Marine Markers Image Dataset](https://universe.roboflow.com/icebergasv-ab2fn/gazebo-simulation-marine-markers) in [Roboflow Universe](https://universe.roboflow.com/).
 
-This repository contains Jupyter notebooks detailing the training process for the custom dataset. These notebooks are adapted from Roboflow's resources and tailored to our specific requirements for marine marker detection.
+This repository contains Jupyter notebooks detailing the training process for the custom dataset. These notebooks are adapted from Roboflow's resources and tailored to our specific requirements for Gazebo marine marker detection.
 
 The classes in our Custom Dataset are the following:
 
@@ -27,10 +27,11 @@ This repository serves not just as a codebase but also as a living document of o
 ## Contents
 - **Jupyter Notebooks**: Comprehensive guides on training the YOLOv5 model with our custom dataset.
 - **Training Weights**: We store the weights of our YOLOv5 models here post-training. These weights are ready for use in object detection tasks or further fine-tuning.
+
 ## Training Graphs For Model Evaluation Version Three
 <img width="907" alt="Screenshot 2024-01-30 at 9 46 12 PM" src="https://github.com/IcebergASV/gazebo_simulation_marine_markers_custom_dataset_yolov5_training/assets/92492748/de64a96f-1b66-4e3b-a26b-4bd2b58ee30c">
 
-Version Three was trained with the following criteria:
+### Criteria for Training
 - 200 Epochs
 - No Augmentations of Custom Dataset
 - No Transfer Learning (TL)
