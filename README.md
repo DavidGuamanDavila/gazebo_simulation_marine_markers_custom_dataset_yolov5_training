@@ -8,7 +8,7 @@ We utilize [Roboflow](https://roboflow.com/) for annotating and labeling images,
 
 This repository contains Jupyter notebooks detailing the training process for the custom dataset. These notebooks are adapted from Roboflow's resources and tailored to our specific requirements for marine marker detection.
 
-The classes in our Custom Datset are the following:
+The classes in our Custom Dataset are the following:
 
 - **Blue Buoy**: Specifically labeled and identified for this class.
 - **Green Buoy**: Uniquely marked and classified as a separate entity.
