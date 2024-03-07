@@ -1,7 +1,7 @@
 # Gazebo Simulation Marine Markers Custom Dataset YOLOv5 Training
 
 ## Welcome
-Welcome to the *gazebo_simulation_marine_markers_custom_dataset_yolov5_training* repository! This project is dedicated to training YOLOv5 models using a custom dataset of marine markers generated from Gazebo simulations. Our goal is to significantly improve object detection in marine environments, aiding marine navigation and research.
+Welcome to the *gazebo_simulation_marine_markers_custom_dataset_yolov5_training* repository! This project is dedicated to training YOLOv5 models using a custom dataset of marine markers generated from Gazebo simulations for the [Roboboat](https://robonation.org/programs/roboboat/) competition. Our goal is to be able to test our object detection with our robotic application in Gazebo.
 
 ## About the Project
 We utilize [Roboflow](https://roboflow.com/) for annotating and labeling images, ensuring precise and efficient dataset preparation. Our project on Roboflow can be accessed at [Gazebo Simulation Marine Markers Image Dataset](https://universe.roboflow.com/icebergasv-ab2fn/gazebo-simulation-marine-markers) in [Roboflow Universe](https://universe.roboflow.com/).
